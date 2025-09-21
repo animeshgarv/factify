@@ -20,12 +20,14 @@ Analyze Image: Right-click on any image on a webpage and select "Analyze image w
 
 Analyze Video: Open the extension popup on a page with video content and click the "Analyze Video" button to get an analysis based on the page's metadata and context.
 
+
 ⚙️ Technologies Used
 Frontend: HTML, CSS, JavaScript (Chrome Extension API)
 
 Backend: Python, Google Cloud Functions
 
 AI Model: Google Gemini 1.5 Pro
+
 
 💻 Installation and Deployment
 Follow these steps to deploy and run your own version of the Factify extension.
@@ -38,6 +40,7 @@ Enable the Cloud Functions API and the Generative Language API.
 
 Set the GEMINI_API_KEY as an environment variable for your Cloud Function.
 
+
 Deploy the backend using the gcloud command:
 
 Bash
@@ -47,6 +50,8 @@ gcloud functions deploy analyze_content \
 --trigger-http \
 --allow-unauthenticated \
 --set-env-vars GEMINI_API_KEY="YOUR_API_KEY_HERE"
+
+
 Install the Extension:
 
 Open Chrome and navigate to chrome://extensions.
