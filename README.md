@@ -2,6 +2,8 @@
 A Multimodal Fact-Checking Extension
 Factify is a powerful Chrome extension that leverages the latest advancements in AI to combat misinformation. It provides users with instant, on-demand analysis of claims found in text, images, and videos on any webpage. By connecting to a dedicated backend powered by the Google Gemini API, it provides a clear credibility score and a concise summary, all without leaving the current page.
 
+👉 Try it now: [Factify Extension](https://drive.google.com/file/d/1AnJmwRDE8oYYUTPb_L_s-al3n-m5njPK/view?usp=drive_link)
+
 ✨ Features
 Multimodal Analysis: Analyze text snippets, images, and video content for misinformation and factual inaccuracies.
 
