@@ -70,6 +70,3 @@ Real-time Analysis: Provide a live, continuous analysis of social media feeds or
 Enhanced UI: Add a dashboard to track a history of fact-checked claims.
 
 Rate Limiting: Add a rate-limiting layer to the Cloud Function to prevent abuse and manage API costs.
-
-📄 License
-This project is licensed under the MIT License.
